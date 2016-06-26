@@ -2,6 +2,9 @@
 
 > Tells what keys from first object are missing in second
 
+[![Build Status](https://travis-ci.org/vladgolubev/missing-deep-keys.svg?branch=master)](https://travis-ci.org/vladgolubev/missing-deep-keys)
+[![Coverage Status](https://coveralls.io/repos/github/vladgolubev/missing-deep-keys/badge.svg?branch=master)](https://coveralls.io/github/vladgolubev/missing-deep-keys?branch=master)
+
 ## Install
 
 Ensure you have [Node.js](https://nodejs.org) version 4 or higher installed. Then run the following:
