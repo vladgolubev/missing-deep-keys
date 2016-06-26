@@ -1,6 +1,6 @@
 {
   "name": "missing-deep-keys",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compares objects' keys to tell what's missing",
   "main": "index.js",
   "scripts": {
