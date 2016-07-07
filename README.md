@@ -7,6 +7,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/vladgolubev/missing-deep-keys/badge.svg?branch=master)](https://coveralls.io/github/vladgolubev/missing-deep-keys?branch=master)
 [![David](https://img.shields.io/david/vladgolubev/missing-deep-keys.svg?maxAge=2592000)](https://github.com/vladgolubev/missing-deep-keys)
 [![Known Vulnerabilities](https://snyk.io/test/npm/missing-deep-keys/badge.svg)](https://snyk.io/test/npm/missing-deep-keys)
+[![npm](https://img.shields.io/npm/dm/missing-deep-keys.svg?maxAge=2592000)](https://github.com/vladgolubev/missing-deep-keys)
 
 ## Install
 
