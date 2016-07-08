@@ -1,7 +1,7 @@
 {
   "name": "missing-deep-keys",
   "version": "0.0.3",
-  "description": "Compares objects' keys to tell what's missing",
+  "description": "Tells you what keys from one object are missing in another",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test.js && npm run coverage",
