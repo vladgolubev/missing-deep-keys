@@ -1,6 +1,6 @@
 # Missing Deep Keys
 
-> Tells what keys from first object are missing in second
+> Tells you what keys from one object are missing in another
 
 [![npm](https://img.shields.io/npm/v/missing-deep-keys.svg?maxAge=2592000)](https://www.npmjs.com/package/missing-deep-keys)
 [![Build Status](https://travis-ci.org/vladgolubev/missing-deep-keys.svg?branch=master)](https://travis-ci.org/vladgolubev/missing-deep-keys)
@@ -27,6 +27,10 @@ const result = missingDeepKeys(o1, o2);
 
 // Prints keys present in o1 but missing in o2
 console.log(result); // => ['a.b']
+
+// Additionally include a parent object if its children are missing
+const result2 = missingDeepKeys(o1, o2, true);
+console.log(result2); // => ['a', 'a.b']
 ```
 
 ## API
@@ -35,28 +39,9 @@ console.log(result); // => ['a.b']
 
 Returns an array of keys present in o1 but missing in o2
 
-#### o1
-#### o2
-
-| Type   | Default |
-|--------|---------|
-| Object | `{}`    |
-
-### showIntermediate
-
-| Type    | Default |
-|---------|---------|
-| Boolean | `false` |
-
-Additionally returns a parent object if its children are missing.
-
-From the example above:
-
-```javascript
-// ...
-missingDeepKeys(o1, o2, false); // => ['a.b']
-missingDeepKeys(o1, o2, true); // => ['a', 'a.b']
-```
+| o1, o2         | showIntermediate   |
+| -------------- | ------------------ |
+| Object (`{}`)  | Boolean (`false`)  |
 
 ## Tests
 
