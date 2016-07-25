@@ -49,6 +49,11 @@ Returns an array of keys present in o1 but missing in o2
 $ npm run test
 ```
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+* *Be the first one!*
+
 ## License
 
 MIT © [Vlad Holubiev](https://github.com/vladgolubev)
