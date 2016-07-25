@@ -20,6 +20,8 @@ $ npm install missing-deep-keys --save
 ## Usage
 
 ```javascript
+const missingDeepKeys = require('missing-deep-keys');
+
 const o1 = {a: {b: 2}}; // Base object
 const o2 = {c: 1}; // Comparison object
 
@@ -49,7 +51,7 @@ Returns an array of keys present in o1 but missing in o2
 $ npm run test
 ```
 
-## :dizzy: Where is this library used?
+## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
 * *Be the first one!*
